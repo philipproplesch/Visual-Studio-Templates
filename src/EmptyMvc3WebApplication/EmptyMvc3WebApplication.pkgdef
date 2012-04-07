@@ -1,0 +1,11 @@
+[$RootKey$\MVC3\ProjectTemplates\EmptyMvc3WebApplicationProjectTemplate]
+"Title"="Empty Web Application"
+"Description"="An empty ASP.NET MVC 3 project (without Entity Framework, jQuery, ...)"
+
+[$RootKey$\MVC3\ProjectTemplates\EmptyMvc3WebApplicationProjectTemplate\C#]
+
+[$RootKey$\MVC3\ProjectTemplates\EmptyMvc3WebApplicationProjectTemplate\C#\Razor]
+"Path"="CSharp\\Web"
+"SupportsHTML5"=dword:00000000
+"SupportsUnitTests"=dword:00000000
+"Template"="Template.zip"
