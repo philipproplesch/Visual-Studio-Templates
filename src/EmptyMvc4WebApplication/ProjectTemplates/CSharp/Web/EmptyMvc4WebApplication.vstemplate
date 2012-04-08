@@ -1,0 +1,65 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+    <TemplateData>
+        <Name Package="{141DA93E-88A7-45D5-B15B-89117F514D64}" ID="21206"/>
+        <Description Package="{141DA93E-88A7-45D5-B15B-89117F514D64}" ID="21207"/>
+        <Icon Package="{349c5850-65df-11da-9384-00065b846f21}" ID="9001" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <TemplateID>EmptyMvc4WebApplication</TemplateID>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+        <SortOrder>42</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>EmptyMvc4WebApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <Hidden>true</Hidden>
+    </TemplateData>
+    <TemplateContent>
+        <CustomParameters>
+            <CustomParameter Name="$language$" Value="C#" />
+            <CustomParameter Name="$languageext$" Value="cs" />
+            <CustomParameter Name="$globalclassname$" Value="EmptyMvc4WebApplication" />
+        </CustomParameters>
+        <Project File="EmptyMvc4WebApplication.csproj" ReplaceParameters="true">
+            <Folder Name="Properties" TargetFolderName="Properties">
+                <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+            </Folder>
+            <Folder Name="Controllers" TargetFolderName="Controllers" />
+            <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.10.asax.cs</ProjectItem>            
+            <Folder Name="Views" TargetFolderName="Views">                
+                <Folder Name="Shared" TargetFolderName="Shared">
+                    <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+                </Folder>
+                <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+        </Project>
+    </TemplateContent>
+    <WizardExtension>
+        <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+        <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+    </WizardExtension>
+    <WizardData>
+        <packages repository="extension" repositoryId="Microsoft.VisualStudio.10.MVC4.TemplatePackages-ENU">            
+            <package id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+            <package id="AspNetRazor.Core" version="2.0.20126.16343" />
+            <package id="AspNetWebPages.Core" version="2.0.20126.16343" />
+            <package id="System.Web.Http.Common" version="4.0.20126.16343" />
+            <package id="AspNetMvc" version="4.0.20126.16343" />
+            <package id="System.Json" version="4.0.20126.16343" />
+            <package id="System.Net.Http" version="2.0.20126.16343" />
+            <package id="System.Net.Http.Formatting" version="4.0.20126.16343" />
+            <package id="AspNetWebApi.Core" version="4.0.20126.16343" />
+            <package id="AspNetWebApi" version="4.0.20126.16343" />
+            <package id="System.Web.Providers.Core" version="1.0" />
+            <package id="System.Web.Providers" version="1.1" />
+            <package id="Microsoft.Web.Optimization" version="1.0.0-beta" />
+        </packages>
+    </WizardData>
+</VSTemplate>

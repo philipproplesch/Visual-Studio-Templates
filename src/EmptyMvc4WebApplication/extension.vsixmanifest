@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="VisualStudio.Templates.a474939d-cc75-4f2f-b66b-591bd5d71dac">
-    <Name>Empty MVC3 ProjectTemplate</Name>
+  <Identifier Id="VisualStudio.Templates.dea78868-4a74-4c23-bf5e-aa9135595918">
+    <Name>Empty MVC4 ProjectTemplate</Name>
     <Author>Philip Proplesch</Author>
     <Version>1.0</Version>
-    <Description xml:space="preserve">Registers a 'really' empty MVC3 ProjectTemplate (without Entity Framework, jQuery and other libraries)</Description>
+    <Description xml:space="preserve">Registers a 'really' empty MVC4 ProjectTemplate (without Entity Framework, jQuery and other libraries)</Description>
     <Locale>1033</Locale>
     <SupportedProducts>
       <VisualStudio Version="10.0">
@@ -20,7 +20,7 @@
         <Edition>VWDExpress</Edition>
       </VisualStudio>
     </SupportedProducts>
-    <SupportedFrameworkRuntimeEdition MinVersion="2.0" MaxVersion="4.0" />
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
   </Identifier>
   <References />
   <Content>
